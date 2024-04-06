@@ -6,6 +6,11 @@ diger config detayları için;
 https://medium.com/@ramanamuttana/keycloak-email-configuration-3342143797a1
 linkinden config yapabiliriz.
 
+Keycloak SMTP server config olarak;
+![image](https://github.com/ariferol/keycloak-2fa-email-authenticator/assets/30680955/5aeb1737-d0b8-4a0f-a867-bcb3c4ff5d76)
+
+config i ile çalışır.
+
 # 🔒 Keycloak 2FA Email Authenticator
 
 Keycloak Authentication Provider implementation to get a two factor authentication with an OTP (One-time-password) send via Email (through SMTP).
