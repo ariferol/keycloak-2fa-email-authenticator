@@ -1,3 +1,11 @@
+#Local mail server kurulumu ile test edebiliriz;
+
+docker run --name mailhog -it -p 1025:1025 -p 9081:8025 --rm mailhog/mailhog
+komutu ile localimizde mailhog local email server i ayaklandırabiliriz.
+diger config detayları için;
+https://medium.com/@ramanamuttana/keycloak-email-configuration-3342143797a1
+linkinden config yapabiliriz.
+
 # 🔒 Keycloak 2FA Email Authenticator
 
 Keycloak Authentication Provider implementation to get a two factor authentication with an OTP (One-time-password) send via Email (through SMTP).
